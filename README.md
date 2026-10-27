@@ -15,7 +15,4 @@ Repo bài kiểm tra thực hành môn Lập trình ứng dụng di động
 ![Validation Success](screenshots/cau1_validation_success.png)
 
 ## Minh chứng Câu 2
-
-Đăng nhập hợp lệ thì dùng explicit Intent chuyển sang ProfileActivity, email được gửi qua putExtra() và hiển thị ở màn hình Account Information. Nút Log Out gọi finish() để quay lại LoginActivity.
-
 ![Profile Intent](screenshots/cau2_profile_intent.png)
