@@ -18,8 +18,8 @@ Repo bài kiểm tra thực hành môn Lập trình ứng dụng di động
 ![Profile Intent](screenshots/cau2_profile_intent.png)
 
 ## Minh chứng Câu 3
-
-Thêm ListView vào ProfileActivity (bên dưới email và nút Log Out), dữ liệu là mảng 6 môn học/kỹ năng, gắn bằng ArrayAdapter với android.R.layout.simple_list_item_1. Bấm vào một dòng sẽ hiện Toast tên môn được chọn.
-
+### 1. Giao diện hiển thị danh sách ListView
 ![ListView Display](screenshots/cau3_listview_display.png)
+
+### 2. Thông báo Toast khi click vào phần tử
 ![Item Click Toast](screenshots/cau3_item_click_toast.png)
