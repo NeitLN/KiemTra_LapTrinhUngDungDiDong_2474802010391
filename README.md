@@ -9,3 +9,9 @@ Màn hình LoginActivity (ConstraintLayout, ánh xạ bằng findViewById, khôn
 
 ![Validation Error](screenshots/cau1_validation_error.png)
 ![Validation Success](screenshots/cau1_validation_success.png)
+
+## Minh chứng Câu 2
+
+Đăng nhập hợp lệ thì dùng explicit Intent chuyển sang ProfileActivity, email được gửi qua putExtra() và hiển thị ở màn hình Account Information. Nút Log Out gọi finish() để quay lại LoginActivity.
+
+![Profile Intent](screenshots/cau2_profile_intent.png)

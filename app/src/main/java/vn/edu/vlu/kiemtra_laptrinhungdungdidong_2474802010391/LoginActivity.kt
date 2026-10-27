@@ -1,5 +1,6 @@
 package vn.edu.vlu.kiemtra_laptrinhungdungdidong_2474802010391
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Patterns
@@ -69,6 +70,11 @@ class LoginActivity : AppCompatActivity() {
 
         tvStatus.setTextColor(Color.parseColor("#2E7D32"))
         tvStatus.text = getString(R.string.validation_success)
+
+        // chuyen sang ProfileActivity bang explicit intent, gui kem email
+        val intent = Intent(this, ProfileActivity::class.java)
+        intent.putExtra(ProfileActivity.EXTRA_EMAIL, email)
+        startActivity(intent)
     }
 
     private fun showError(message: String) {
